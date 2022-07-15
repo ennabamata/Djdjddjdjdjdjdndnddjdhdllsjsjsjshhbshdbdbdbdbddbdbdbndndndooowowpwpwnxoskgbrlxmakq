@@ -1,1 +1,90 @@
-{"name":"Error 401","description":"","logo":"","keywords":[],"repository":"https://github.com/","website":"https://alpha-x.ml/wa-bot","success_url":"https://alpha-x.ml/wa-bot","stack":"container","env":{"_ALPHA_SESSION":{"description":"Type here your QR code. Get it using >> https://replit.com/@AlphaXteam","required":true},"LANGUAGE":{"description":"Bot language - English => EN , Sinhala=> SI , Kannada => KN , Turkish => TR , Malayalam => ML , Russian => RU , Azerbaijian => AZ , Hindi => HI [ More Languages coming soon.. ]","required":true,"value":"EN"},"HANDLERS":{"description":"Give Handlers For your commands","required":true,"value":"^[.,/#*?]"},"AI_LILY":{"description":"Turn your account into a chatbot! / AI Chat Bot LILY!","required":true,"value":"false"},"NO_LOG":{"description":"Set true if you don't want to see error log.","required":true,"value":"false"},"SEND_READ":{"description":"Write true if you want to throw seen.","required":true,"value":"true"},"HEROKU":{"description":"If it is running in Heroku, type true.","required":true,"value":"true"},"HEROKU_API_KEY":{"description":"Heroku API Key.","required":true,"value":""},"WORK_TYPE":{"description":"Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.","required":true,"value":"private"},"HEROKU_APP_NAME":{"description":"Heroku APP Name.","required":true,"value":""},"DEBUG":{"description":"‎Debug.","required":true,"value":"false"},"NO_ONLINE":{"description":"Type true if you don't want to appear online.","required":false,"value":"true"}},"formation":{"worker":{"quantity":1,"size":"free"}},"addons":[{"plan":"heroku-postgresql"}],"buildpacks":[{"url":"https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},{"url":"heroku/nodejs"}]}
+{
+  "name": "Error 401",
+  "description": "",
+  "logo": "",
+  "keywords": [],
+  "repository": "https://github.com/",
+  "website": "https://diana.tk",
+  "success_url": "https://diana.tk",
+  "stack": "container",
+  "env": {
+    "SESSION": {
+      "description": "",
+      "required": true
+    },
+    "LANGUAGE": {
+      "description": "Bot language - English => EN , Sinhala=> SI , Kannada => KN , Turkish => TR , Malayalam => ML , Russian => RU , Azerbaijian => AZ , Hindi => HI [ More Languages coming soon.. ]",
+      "required": true,
+      "value": "EN"
+    },
+    "HANDLERS": {
+      "description": "Give Handlers For your commands",
+      "required": true,
+      "value": "^[.,/#*?]"
+    },
+    "AI_LILY": {
+      "description": "Turn your account into a chatbot! / AI Chat Bot LILY!",
+      "required": true,
+      "value": "false"
+    },
+    "NO_LOG": {
+      "description": "Set true if you don't want to see error log.",
+      "required": true,
+      "value": "false"
+    },
+    "SEND_READ": {
+      "description": "Write true if you want to throw seen.",
+      "required": true,
+      "value": "true"
+    },
+    "HEROKU": {
+      "description": "If it is running in Heroku, type true.",
+      "required": true,
+      "value": "true"
+    },
+    "HEROKU_API_KEY": {
+      "description": "Heroku API Key.",
+      "required": true,
+      "value": ""
+    },
+    "WORK_TYPE": {
+      "description": "Alpha-X Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
+      "required": true,
+      "value": "private"
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Heroku APP Name.",
+      "required": true,
+      "value": ""
+    },
+    "DEBUG": {
+      "description": "‎Debug.",
+      "required": true,
+      "value": "false"
+    },
+    "NO_ONLINE": {
+      "description": "Type true if you don't want to appear online.",
+      "required": false,
+      "value": "true"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
